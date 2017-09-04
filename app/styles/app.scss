@@ -1,12 +1,20 @@
 // Google Fonts
-@import url('https://fonts.googleapis.com/css?family=Bangers');
+@import url('https://fonts.googleapis.com/css?family=Bangers|Karla|Tauri');
 
-$bangers: 'Bangers', serif;
-$space-large: 2.5rem;
+$bangers: 'Bangers', cursive;
+$tauri: 'Tauri', sans-serif;
+$karla: 'Karla', sans-serif;
+$space-large: 4.5rem;
 $title-color: #ffffff;
 
 body {
   background-color: skyblue;
+}
+
+
+
+p {
+    font-family: $karla!important;
 }
 
 .page-title {
@@ -14,8 +22,20 @@ body {
   margin-top: $space-large;
   margin-bottom: $space-large;
   color: $title-color;
+  font-size: 4.5rem;
 }
 
 input[type=search] {
   box-shadow: none;
+}
+
+.weather-result {
+  font-family: $tauri;
+}
+
+.button {
+  background-color: rgb(203, 56, 55)!important;
+  border:none!important;
+  color:white!important;
+  font-family: $karla!important;
 }
